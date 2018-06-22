@@ -12,13 +12,10 @@
     android:layout_height="match_parent"
     ></android.support.v4.view.ViewPager>
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="300dp"
-        android:layout_height="291dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        tools:ignore="UnknownId" />
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/caroiselPicker"
+        android:layout_width="match_parent"
+        android:background="#DDD"
+        android:layout_height="wrap_content"></in.goodiebag.carouselpicker.CarouselPicker>
 
 </RelativeLayout>
